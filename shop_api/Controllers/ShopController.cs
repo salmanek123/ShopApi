@@ -118,6 +118,32 @@ namespace shop_api.Controllers
         }
 
 
+        [HttpPost("v1/add-item-alternate")]
+        public async Task<ActionResult> AddItemAndAlternateUnit(ItemAlterRequest request)
+        {
+            ControllerResponse response = await _crud.AddalterItems(request);
+            if (response.status != true)
+            {
+                string appDataError = "Something went wrong,please try again";
+                var exception = new ExceptionResponse(300, appDataError, response.data);
+                return BadRequest(exception);
+            }
+            return Ok(response);
+        }
+
+        [HttpPut("v1/edit-alternate-and-items/{AlternatId}")]
+        public async Task<ActionResult> UpdateAlternate(int AlternatId, ItemAndAlterRequest request)
+        {
+            ControllerResponse response = await _crud.UpdateAlternateUnitAndItems(AlternatId, request);
+            if (response.status != true)
+            {
+                string appDataError = "Something went wrong,please try again";
+                var exception = new ExceptionResponse(300, appDataError, response.data);
+                return BadRequest(exception);
+            }
+            return Ok(response);
+        }
+
 
 
     }

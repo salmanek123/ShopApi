@@ -387,5 +387,161 @@ namespace shop_api.Services
             }
         }
 
+
+
+        public async Task<dynamic> AddalterItems(ItemAlterRequest request)
+        {
+            ControllerResponse response = new ControllerResponse();
+
+            try
+            {
+                List<AddAlternateUnitType> addAlternateUnitTypes = new List<AddAlternateUnitType>();
+
+                if (request.AltUnits.Count > 0)
+                {
+                    foreach (var data in request.AltUnits)
+                    {
+                        var obj = new AddAlternateUnitType()
+                        {
+                            Unit = data.Unit,
+                            ItemName = data.ItemName,
+                            Conversion = data.Conversion,
+                            RetailRate = data.RetailRate,
+                            Barcode = data.Barcode,
+                            IsBasic = data.IsBasic
+
+                        };
+                        addAlternateUnitTypes.Add(obj);
+                    }
+                }
+
+                var proc = new AddAlternateunittable()
+                {
+                    ItemCode = request.ItemCode,
+                    CurrentStock = request.CurrentStock,
+                    Cost = request.Cost,
+                    Notes = request.Notes,
+                    TaxPerc = request.TaxPerc,
+                    AltUnits = addAlternateUnitTypes,
+                    ResultID = 0
+
+                };
+                var SpResponse = await _context.Database.ExecuteStoredProcedureAsync<dynamic>(proc);
+                int result = proc.ResultID;
+                if (result == -1)
+                {
+                    response.status = false;
+                    response.data = "Error occurred while adding the item chk Sp.";
+                    return response;
+
+                }
+                else if (result == -2)
+                {
+                    response.status = false;
+                    response.data = "An item can only have one basic unit";
+                    return response;
+                }
+                else
+                {
+                    response.status = true;
+                    response.data = "Redcord Successfully inserted";
+                    return response;
+                }
+            }
+            catch (Exception ex)
+            {
+                response.status = false;
+                response.data = $"Something went wrong:{ex.Message}";
+                return response;
+            }
+        }
+
+
+        public async Task<dynamic> UpdateAlternateUnitAndItems(int AlternatId, ItemAndAlterRequest request)
+        {
+            ControllerResponse response = new ControllerResponse();
+            try
+            {
+
+                List<AddAlternateUnitType> addAlternateUnitTypes = new List<AddAlternateUnitType>();
+
+                if (request.AltUnits.Count > 0)
+                {
+                    foreach (var data in request.AltUnits)
+                    {
+                        var obj = new AddAlternateUnitType()
+                        {
+                            AltUnitId = AlternatId,
+                            Unit = data.Unit,
+                            ItemName = data.ItemName,
+                            Conversion = data.Conversion,
+                            RetailRate = data.RetailRate,
+                            Barcode = data.Barcode,
+                            IsBasic = data.IsBasic
+
+                        };
+                        addAlternateUnitTypes.Add(obj);
+                    }
+                }
+                var proc = new UpdateAlternateUnitAndItems()
+                {
+                    ItemId = request.ItemId,
+                    ItemCode = request.ItemCode,
+                    CurrentStock = request.CurrentStock,
+                    Cost = request.Cost,
+                    Notes = request.Notes,
+                    TaxPerc = request.TaxPerc,
+                    AltUnits = addAlternateUnitTypes,
+                    ResultID = 0
+                };
+
+                var SpRespons = await _context.Database.ExecuteStoredProcedureAsync<dynamic>(proc);
+                int result = proc.ResultID;
+                if (result == -1)
+                {
+                    response.status = false;
+                    response.data = "Error occurred while Updating record.";
+                    return response;
+                }
+                else if (result == -2)
+                {
+                    response.status = false;
+                    response.data = "An item can only have one basic unit";
+                    return response;
+                }
+                else if (result == -3)
+                {
+                    response.status = false;
+                    response.data = "AlternatId not found ";
+                    return response;
+                }
+                else if (result == -4)
+                {
+                    response.status = false;
+                    response.data = "ItemId not found ";
+                    return response;
+                }
+
+                response.status = true;
+                response.data = "Updated Successfully";
+                return response;
+
+
+
+            }
+            catch (Exception ex)
+            {
+                response.status = false;
+                response.data = $"Something went wrong:{ex.Message}";
+                return response;
+            }
+        }
+
+
+
+
+
+
+
     }
 }

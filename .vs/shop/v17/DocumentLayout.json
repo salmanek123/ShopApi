@@ -3,36 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\acer\\source\\repos\\shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\models\\controllerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\models\\controllerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\models\\shops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\models\\shops.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|C:\\Users\\acer\\source\\repos\\shop\\shop_api\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\services\\crudservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\services\\crudservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|C:\\Users\\acer\\source\\repos\\shop\\shop_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\entities\\storeprocedures\\shop\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\entities\\storeprocedures\\shop\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\interface\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\interface\\icrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|C:\\Users\\acer\\source\\repos\\shop\\shop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|C:\\Users\\acer\\source\\repos\\shop\\shop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|c:\\users\\acer\\source\\repos\\shop\\shop_api\\models\\controllerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\models\\controllerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|C:\\Users\\acer\\source\\repos\\shop\\shop_api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|C:\\Users\\acer\\source\\repos\\shop\\shop_api\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB6DD02-BAE0-4982-8599-DA0C0732B340}|shop_api\\shop_api.csproj|solutionrelative:shop_api\\helpers\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,65 +70,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Entities\\StoreProcedures\\Shop\\Shop.cs",
+              "RelativeDocumentMoniker": "shop_api\\Entities\\StoreProcedures\\Shop\\Shop.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Entities\\StoreProcedures\\Shop\\Shop.cs",
+              "RelativeToolTip": "shop_api\\Entities\\StoreProcedures\\Shop\\Shop.cs",
+              "ViewState": "AQIAAOcAAAAAAAAAAAD4v/EAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:40:36.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ControllerResponse.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Models\\ControllerResponse.cs",
-              "RelativeDocumentMoniker": "shop_api\\Models\\ControllerResponse.cs",
-              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Models\\ControllerResponse.cs",
-              "RelativeToolTip": "shop_api\\Models\\ControllerResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T19:09:11.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Helpers\\AppSettings.cs",
-              "RelativeDocumentMoniker": "shop_api\\Helpers\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Helpers\\AppSettings.cs",
-              "RelativeToolTip": "shop_api\\Helpers\\AppSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T19:06:01.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Shops.cs",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Models\\Shops.cs",
               "RelativeDocumentMoniker": "shop_api\\Models\\Shops.cs",
               "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Models\\Shops.cs",
               "RelativeToolTip": "shop_api\\Models\\Shops.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAWwJkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T19:05:59.557Z",
+              "WhenOpened": "2024-07-18T15:38:52.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CrudServices.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Services\\CrudServices.cs",
+              "RelativeDocumentMoniker": "shop_api\\Services\\CrudServices.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Services\\CrudServices.cs",
+              "RelativeToolTip": "shop_api\\Services\\CrudServices.cs",
+              "ViewState": "AQIAAAQCAAAAAAAAAAAnwO4BAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:57:30.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "shop_api\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Data\\DataContext.cs",
-              "RelativeToolTip": "shop_api\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T19:05:53.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "shop_api\\Controllers\\ShopController.cs",
               "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Controllers\\ShopController.cs",
               "RelativeToolTip": "shop_api\\Controllers\\ShopController.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAAAIYAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T19:05:33.558Z",
               "EditorCaption": ""
@@ -149,15 +148,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "shop_api\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\appsettings.Development.json",
               "RelativeToolTip": "shop_api\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-16T18:55:58.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "shop_api\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Data\\DataContext.cs",
+              "RelativeToolTip": "shop_api\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T19:05:53.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICrud.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Interface\\ICrud.cs",
+              "RelativeDocumentMoniker": "shop_api\\Interface\\ICrud.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Interface\\ICrud.cs",
+              "RelativeToolTip": "shop_api\\Interface\\ICrud.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA0wBMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:34:03.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Helpers\\AppSettings.cs",
+              "RelativeDocumentMoniker": "shop_api\\Helpers\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Helpers\\AppSettings.cs",
+              "RelativeToolTip": "shop_api\\Helpers\\AppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T19:06:01.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ControllerResponse.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Models\\ControllerResponse.cs",
+              "RelativeDocumentMoniker": "shop_api\\Models\\ControllerResponse.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\shop\\shop_api\\Models\\ControllerResponse.cs",
+              "RelativeToolTip": "shop_api\\Models\\ControllerResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T19:09:11.232Z",
               "EditorCaption": ""
             }
           ]

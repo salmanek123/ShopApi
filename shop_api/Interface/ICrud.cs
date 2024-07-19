@@ -13,6 +13,8 @@ namespace shop_api.Interface
         Task<dynamic> UpdateAlternateUnit(int AltunitId, UpdateAlternateUnit request);
         Task<dynamic> DeleteItems(int ItemId);
         Task<dynamic> GetAllItems(int? item, PaginationRequest request);
+        Task<dynamic> AddalterItems(ItemAlterRequest request);
+        Task<dynamic> UpdateAlternateUnitAndItems(int AlternatId, ItemAndAlterRequest request);
 
     }
 }
