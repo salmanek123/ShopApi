@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\shop_api",
+    "\\shop_api\\Controllers",
+    "\\shop_api\\Data",
+    "\\shop_api\\Helpers",
+    "\\shop_api\\Models"
+  ],
+  "SelectedNode": "\\shop_api\\Models\\ControllerResponse.cs",
+  "PreviewInSolutionExplorer": false
+}
